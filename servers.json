@@ -1,0 +1,28 @@
+{
+    "servers": [
+        {
+            "name" : "couchdb",
+            "description": "CouchDB running in Okeanos",
+            "ip": "83.212.105.167",
+            "port": "5984",
+            "cron": "* * * * *",
+            "http_code": "200"
+        },
+        {
+            "name" : "mattermost",
+            "description": "Mattermost running in Okeanos",
+            "ip": "snf-747499.vm.okeanos.grnet.gr",
+            "port": "80",
+            "cron": "* * * * *",
+            "http_code": "200"
+        },
+        {
+            "name" : "lala",
+            "description": "Fail",
+            "ip": "ladsldasdasd.com",
+            "port": "80",
+            "cron": "* * * * *",
+            "http_code": "200"
+        }
+    ]
+}
